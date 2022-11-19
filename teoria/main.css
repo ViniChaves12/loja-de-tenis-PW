@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+p {
+    color: blue;
+    font-size: 30px;
+}
+
+body{
+    padding: 20px;
+}
+/* Classes e id's */
+#titulo-principal{
+    background-color: #feb236;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.meu-paragrafo{
+    background-color: black;
+    color: burlywood ;
+}
+
+/* Elementos da página */
+
+h1,p {
+    border-bottom: 2px solid red;
+}
+
+.nome-da-cor{
+    background-color: pink;
+}
+
+.hexa{
+    background-color: #a2b9bc;
+}
+
+.rgb{
+    background-color: rgba(185, 54, 76, 0.541);
+}
+
+.serifada{
+    font-family: Georgia;
+}
+
+.sem-serifa {
+    font-family: Helvetica;
+}
+
+.mono-espaco {
+    font-family: 'Courier New';
+}
+
+.box-model {
+    height: 100px;
+    width: 200px;
+    border: 1px solid blue;
+    margin: 50px;
+    padding: 20px;
+}
